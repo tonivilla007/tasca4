@@ -64,7 +64,7 @@ CREATE TABLE IF NOT EXISTS `exercici4`.`polissa` (
   `TipusPolissa_idTipusPolissa` INT NOT NULL,
   `Preu anual` INT NULL,
   `Tipuspagament` VARCHAR(45) NULL,
-  `DataContratacio` VARCHAR(10) NULL,
+  `DataContratacio` VARCHAR(12) NULL,
   `IniciVigencia` VARCHAR(10) NULL,
   `FiVigencia` VARCHAR(10) NULL,
   PRIMARY KEY (`idpolissa`),
